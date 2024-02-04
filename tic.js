@@ -30,7 +30,7 @@ for(let i=0;i<winner.length;i++){
    const box3=box[condition[2]].innerText
    if(box1!="" &&box2!="" &&box3!=""){
     if(box1===box2&& box2==box3){
-        // displaywinner()
+       
         box[condition[0]].classList.add('hi') 
         box[condition[1]].classList.add('hi')
         box[condition[2]].classList.add('hi')
